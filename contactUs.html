@@ -3,7 +3,7 @@
 <head>
     <!-- הגדרות הדף -->
     <meta charset="utf-8" />
-    <title>צור קשר - myJewl</title>
+    <title>עמוד הבית - ספורט</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
@@ -11,7 +11,7 @@
     <!-- CSS -->
     <!--<link href="styles/reset.css" rel="stylesheet" />-->
     <link href="styles/siteStyle.css" rel="stylesheet" />
-    <link href="styles/contactUs.css" rel="stylesheet" />
+    <link href="styles/contactStyle.css" rel="stylesheet" />
 
     <!-- Scripts -->
     <script src="jScripts/jquery-3.6.0.min.js"></script>
@@ -34,72 +34,50 @@
 
 
 
-        <section class="fromSection">
-            <div style="text-align:center">
-                <h2>צור קשר</h2>
-                <p>השאירו פרטים, כתבו את ההודעה שלכם ונחזור אליכם בהקדם</p>
-            </div>
-            <div class="row">
-                <div class="column">
-                    <form>
+       <section class="fromSection" >
+           <div class="rigthSec">
+               <form>
 
-                        <!--first name ,last name-->
-                        <label for="fname">שם פרטי:*</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="הקלד שם פרטי" required><br>
-                        <label for="lname"> שם משפחה:*</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="הקלד שם משפחה" required>
+                   <!--first name ,last name-->
+                   <label for="fname">שם פרטי:*</label><br>
+                   <input type="text" id="fname" name="fname" placeholder="הקלד שם פרטי" required><br>
+                   <label for="lname"> שם משפחה:*</label><br>
+                   <input type="text" id="lname" name="lname" placeholder="הקלד שם משפחה" required>
 
 
-                        <!--gender-->
-                        <fieldset>
-                            <legend>מין:</legend>
-                            <input type="radio" id="male" name="gender" value="MALE">
-                            <label for="male">זכר</label><br>
-                            <input type="radio" id="female" name="gender" value="FEMALE">
-                            <label for="female">נקבה</label><br>
-                        </fieldset>
+                   <!--gender-->
+                   <fieldset>
+                       <legend>מין:</legend>
+                       <input type="radio" id="male" name="gender" value="MALE">
+                       <label for="male">זכר</label><br>
+                       <input type="radio" id="female" name="gender" value="FEMALE">
+                       <label for="female">נקבה</label><br>
+                   </fieldset>
 
-                        <!--topic-->
-                        <fieldset>
-                            <legend>באיזה נושא ההודעה שלך?</legend>
-                            <input type="checkbox" id="return" name="return" value="return">
-                            <label for="return"> החזרת מוצר</label><br>
-                            <input type="checkbox" id="Shipping" name="Shipping" value="Shipping">
-                            <label for="Shipping"> משלוחים</label><br>
-                            <input type="checkbox" id="Customer" name="Customer" value="Customer">
-                            <label for="Customer">שירות לקוחות </label>
-                        </fieldset>
+                   <!--topic-->
+                   <fieldset>
+                       <legend>באיזה נושא ההודעה שלך?</legend>
+                       <input type="checkbox" id="return" name="return" value="return">
+                       <label for="return"> החזרת מוצר</label><br>
+                       <input type="checkbox" id="Shipping" name="Shipping" value="Shipping">
+                       <label for="Shipping"> משלוחים</label><br>
+                       <input type="checkbox" id="Customer" name="Customer" value="Customer">
+                       <label for="Customer">שירות לקוחות </label>
+                   </fieldset>
 
-                        <label for="message">ההודעה שלך:</label>
-                        <br />
-                        <textarea id="message" name="message" rows="5" placeholder="כתוב את ההודעה שלך כאן"> </textarea>
+                   <label for="message">ההודעה שלך:</label>
+                   <br />
+                   <textarea id="message" name="message" rows="5" placeholder="כתוב את ההודעה שלך כאן"> </textarea> 
 
-                    </form>
+               </form>
+           </div>
 
-                </div>
-                <div class="column">
-                    <img src="images/form.jpg" style="width:100%;height:550px;" />
-                </div>
-            </div>
-        </section>
+           <div id="leftSec">
 
+               <ul></ul>
+           </div>
+       </section>
 
-
-        <footer>
-            <ul>
-                <li><img src="images/facebook.png"></li>
-                <li><img src="images/instagram.png"></li>
-                <li><img src="images/twitter.png"></li>
-            </ul>
-            <ul>
-                <li><a href="index.html">דף הבית</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="contactUs.html">צור קשר</a></li>
-                <li><a href="siteMap.html">מפת אתר</a></li>
-                <li><a href="about.html">אודות</a></li>
-            </ul>
-        </footer>
 
     </div>
 </body>

@@ -3,7 +3,7 @@
 <head>
     <!-- הגדרות הדף -->
     <meta charset="utf-8" />
-    <title>עמוד הבית - myJewl</title>
+    <title>עמוד הבית - תכשיטים</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
@@ -11,7 +11,6 @@
     <!-- CSS -->
     <!--<link href="styles/reset.css" rel="stylesheet" />-->
     <link href="styles/siteStyle.css" rel="stylesheet" />
-    <link href="styles/indexStyle.css" rel="stylesheet" />
 
     <!-- Scripts -->
     <script src="jScripts/jquery-3.6.0.min.js"></script>
@@ -43,16 +42,6 @@
 
         </header>
 
-
-        <section class="paragraph">
-            <h2> myJewl - תכשיטים מעוצבים לאישה</h2>
-            <p>
-                התכשיטים משמשים אותנו כאביזר אופנה. עיצובם מושפע כמו כל אופנה מאופי התקופה, רעיונות, צבעים וכו'.
-                אצלנו תמצאי תכשיטי חרוזים ייחודים בעבודת יד
-                טבעות, שרשראות, עגילים וצמידים מעוצבים לנשים, עם עיצוב מוקפד, קווים נקיים והמון תשוקה לתכשיטים לאישה, יצרנו עבורכן את המקום שבו תוכלו להתחדש בתדירות גבוהה ובמחיר הוגן.
-            </p>
-        </section>
-
         <div class="gallery">
             <div class="mySlides">
                 <div class="numbertext">1 / 6</div>
@@ -76,7 +65,7 @@
 
             <div class="mySlides">
                 <div class="numbertext">5 / 6</div>
-                <img src="images/slide555.jpg" style="width: 100%;">
+                <img src="images/slide55.jpg" style="width: 100%;">
             </div>
 
             <div class="mySlides">
@@ -89,96 +78,44 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
             <!-- Image text -->
-            <div class="caption-container">
-            <p id="caption"></p>
-        </div>
+            <!--<div class="caption-container">
+                <p id="caption"></p>
+            </div>-->
+
             <!-- Thumbnail images -->
             <div class="row">
                 <div class="column">
-                    <img class="demo cursor" src="images/slide1.jpg" style="width:100%" onclick="currentSlide(1)" alt="טבעת אבנים">
+                    <img class="demo cursor" src="images/slide1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="images/slide2.jpg" style="width:100%" onclick="currentSlide(2)" alt="זוג טבעות">
+                    <img class="demo cursor" src="images/slide2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="images/slide3.jpg" style="width:100%" onclick="currentSlide(3)" alt="טבעות זהב">
+                    <img class="demo cursor" src="images/slide3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="images/slide4.jpg" style="width:100%" onclick="currentSlide(4)" alt="סט תכשיטי זהב">
+                    <img class="demo cursor" src="images/slide4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="images/slide5.jpg" style="width:100%" onclick="currentSlide(5)" alt="צמיד אבנים">
+                    <img class="demo cursor" src="images/slide5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="images/slide6.jpg" style="width:100%" onclick="currentSlide(6)" alt="טבעת כסף">
+                    <img class="demo cursor" src="images/slide6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
                 </div>
             </div>
         </div>
 
 
-        <section class="productsContainer">
-            <h2>צמידים</h2>
-            <section class="products">
-                <div class="imgT">
-                    <img src="/images/bracgold.jpg" style="width:50%;height:auto;" class="bracelent" />
-                    <h3>צמיד שלי</h3>
-                    <button class="praimryButton">לרכישה</button>
-                </div>
 
-                <div class="imgT">
-                    <img src="/images/bracmix.jpg" style="width:50%;height:auto;" class="bracelent" />
-                    <h3>צמיד נעם</h3>
-                    <button class="praimryButton">לרכישה</button>
-                </div>
-
-                <div class="imgT">
-                    <img src="/images/bracturqiz.jpg" style="width:50%;height:auto;" class="bracelent" />
-                    <h3>צמיד אדיר</h3>
-                    <button class="praimryButton">לרכישה</button>
-                </div>
-            </section>
+        <section class="products">
+        <div class="flexContainer">
+            <img class="bracelent" src ="/images/bracGold.jpg" />
+            <img   class="bracelent" src="/images/bracMix.jpg" />
+            <img  class="bracelent" src="/images/bracTurqiz.jpg" />
+        </div>
+            </div>
         </section>
-
-        <section class="productsContainer">
-            <h2>שרשראות</h2>
-            <section class="products">
-                <div class="imgT">
-                    <img src="/images/necklace1.jpg" style="width:50%;height:auto;" class="bracelent" />
-                    <h3>שרשרת עדי</h3>
-                    <button class="praimryButton">לרכישה</button>
-                </div>
-
-                <div class="imgT">
-                    <img src="/images/necklace2.jpg" style="width:50%;height:auto;" class="bracelent" />
-                    <h3>שרשרת מאי</h3>
-                    <button class="praimryButton">לרכישה</button>
-                </div>
-
-                <div class="imgT">
-                    <img src="/images/necklace3.jpg" style="width:50%;height:auto;" class="bracelent" />
-                    <h3>שרשרת סטפני</h3>
-                    <button class="praimryButton">לרכישה</button>
-                </div>
-            </section>
-        </section>
-
-        <footer>
-            <ul>
-                <li><img src="images/facebook.png"></li>
-                <li><img src="images/instagram.png"></li>
-                <li><img src="images/twitter.png"></li>
-            </ul>
-            <ul>
-                <li><a href="index.html">דף הבית</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="contactUs.html">צור קשר</a></li>
-                <li><a href="siteMap.html">מפת אתר</a></li>
-                <li><a href="about.html">אודות</a></li>
-            </ul>
-        </footer>
-
-    </div>
-
+        </div>
+  
 </body>
 </html>

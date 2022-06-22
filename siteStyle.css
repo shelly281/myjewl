@@ -1,0 +1,131 @@
+﻿body {
+    direction: rtl;
+}
+
+h3, h2, h1, p, a, label {
+    font-family: Assistant;
+    text-align: center;
+}
+
+h2 {
+    font-size:32px;
+}
+
+.container {
+    position: absolute;
+    width: 1366px;
+}
+
+nav {
+    font-family: Assistant;
+    width: 100%;
+    height: auto;
+    top: 0;
+    position: fixed;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #d27e76;
+    text-decoration: underline;
+}
+
+
+.active {
+    background-color: #d27e76;
+}
+
+#headerP {
+  background-image: url('../images/hedarp.jpg');
+    width: 100%;
+    height: 500px;
+    background-position:center;
+    margin-top:50px;
+}
+
+
+p{
+    align-content: center;
+    text-align: center;
+    width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 15pt;
+}
+
+
+.praimryButton {
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #d27e76;
+    font-family: Assistant;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5 ease-out;
+}
+
+.praimryButton:hover {
+        opacity: 0.8;
+        background-color: white;
+        border: solid;
+        color: #d27e76;
+    }
+
+
+footer {
+    font-family: Assistant;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+}
+
+ footer li {
+        display: inline-block;
+        min-width: 5em;
+        margin: 0 0.5em;
+}
+
+footer li a {
+            text-decoration: underline;
+            display: block;
+            position: relative;
+            color: black;
+            padding: .5em 0
+}
+
+footer li a:hover {
+    color: #d27e76;
+}
+
+  
